@@ -1,0 +1,22 @@
+
+#Client config settings
+[client]
+	#Enable Aggressive Bite Detection
+	config_autofish_aggressiveBiteDetection = false
+	#Enable Entity Clear Protection
+	config_autofish_entityClearProtect = false
+	#Handle Problems
+	config_autofish_handleProblems = false
+	#Enable Fast Fishing
+	config_autofish_fastFishing = false
+	#Enable Break Protection
+	config_autofish_preventBreak = false
+	#Enable AutoFish
+	#Automatically reel in and re-cast when a fish nibbles the hook. If set to false, all other AutoFish functionality is disabled.
+	config_autofish_enable = true
+	#Re-Cast Delay
+	#Range: 1 ~ 10
+	config_autofish_recastDelay = 2
+	#Enable MultiRod
+	config_autofish_multirod = false
+

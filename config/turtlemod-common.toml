@@ -1,0 +1,24 @@
+
+#Reptile Mod Config
+[CommonConfig]
+	#Minimum number of reptiles to spawn at one time
+	#Range: 1 ~ 5
+	minSpawn = 1
+	#Spawn Probability Set to zero to disable spawning of this entity
+	#Range: 0 ~ 100
+	mudTurtleSpawnProb = 10
+	#Spawn Probability Set to zero to disable spawning of this entity
+	#Range: 0 ~ 100
+	tortoiseSpawnProb = 10
+	#Spawn Probability Set to zero to disable spawning of this entity
+	#Range: 0 ~ 100
+	littleTurtleSpawnProb = 10
+	#Spawn Probability Set to zero to disable spawning of this entity
+	#Range: 0 ~ 100
+	desertTortoiseSpawnProb = 10
+	#Set to false to disable random scaling of monitors, default is true.
+	randomScale = true
+	#Maximum number of turtles to spawn at one time
+	#Range: 1 ~ 10
+	maxSpawn = 4
+
