@@ -5,7 +5,7 @@
 	useDoubleJump = false
 	#Exhaustion gained per wall jump
 	#Range: 0.0 ~ 3.0
-	exhaustionWallJump = 0.8
+	exhaustionWallJump = 0.5
 	#Minimum distance for fall damage; set to 3.0 to disable
 	#Range: 3.0 ~ 256.0
 	minFallDistance = 3.5
@@ -19,7 +19,7 @@
 	allowReClinging = false
 	#Sprint speed boost; set to 0.0 to disable
 	#Range: 0.0 ~ 3.0
-	sprintSpeedBoost = 0.3
+	sprintSpeedBoost = 0.0
 	#Elytra speed boost; set to 0.0 to disable
 	#Range: 0.0 ~ 3.0
 	elytraSpeedBoost = 0.0

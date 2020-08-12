@@ -1,0 +1,13 @@
+
+Added Immersive portals back in, enjoy the non euclidean trip.
+Actually applied patches from 0.5 that i just didn't lmfao. some are below
+
+You now gain .06 difficulty per second, You gain .03 difficulty when you are afk.
+Finally added the mob hp changes i wanted. Shouldn't be aids but the "bad" weapons are decent mid-endgame
+slighty more exp from hostiles not spawned by spawner.
+Most likely the last difficulty increase in a while. Seemed ok. Playtime effects mobs now hf :)
+
+More performance mod introduced
+Added inventory tweaks
+Re-added curses
+Ping system added

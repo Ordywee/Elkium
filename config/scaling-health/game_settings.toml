@@ -21,7 +21,7 @@
 	sleepWarningMessage = ""
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 5.0E-5
+	changePerSecond = 0.0006
 	#These players will not gain difficulty. Use either name or UUID.
 	#Note: if non-exempt players are nearby, mobs will still be stronger.
 	exemptPlayers = []
@@ -52,7 +52,7 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.5
+		multiplier = 0.0003
 		#Time in seconds before afk change kicks in
 		time = 120.0
 		#If true, a comment will appear to notify when you are considered afk
@@ -100,7 +100,7 @@
 
 	[mob.damage]
 		#The maximum extra attack damage a mob can receive
-		maxBoost = 10.0
+		maxBoost = 5.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
 		boostScale = 0.1
 
@@ -111,7 +111,7 @@
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
-		Boost = 0.03
+		Boost = 0.07
 
 	#Mob health settings
 	[mob.health]
@@ -126,8 +126,8 @@
 		modifierMode = "MULTI_HALF"
 
 		[mob.health.multiplier]
-			hostile = 0.375
-			passive = 0.375
+			hostile = 0.4
+			passive = 0.005
 
 	[mob.blight]
 		#Chance that the mob has of becoming a blight - 0 will effectively deactivate blight
@@ -205,10 +205,10 @@
 
 	[item.heart_crystal]
 		#The number of levels required to use a heart crystal.
-		levelCost = 30
+		levelCost = 20
 		#The amount of additional health restored by heart crystals.
 		#Heart crystals always restore the amount of health they add, this is a bonus
-		healthRestored = 4.0
+		healthRestored = 1.0
 		#How much hearts a player will gain using a heart crystal.
 		healthBoost = 1
 
@@ -227,11 +227,11 @@
 		#For a value n, a chance heart has 1 in 2n + 1 chance of being cursed
 		#In that case, n difficulty is added (n = 10, 1 in 21 chance to get +10)
 		#There's a 2 in 2n + 1 chance for 1 to n difficulty to be subtracted (n = 3, 2 in 7 chance of getting -1, -2, or -3
-		change = 1000.0
+		change = 250.0
 
 	[item.cursed_heart]
 		#Change in difficulty when a cursed heart is used
-		change = 1000.0
+		change = 10.0
 
 #Set damage scaling by damage source. No scaling is done by default.
 #Mod sources can be added too, you'll just need the damage type string. The number represents how steeply the damage scales.
