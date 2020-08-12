@@ -7,7 +7,7 @@
 
 	[Common.Chat]
 		#Disable chat prefixes
-		disablePrefix = false
+		disablePrefix = true
 		#Disable ping sound when your name or your team name is mentioned in chat
 		disablePing = false
 

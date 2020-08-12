@@ -5,7 +5,7 @@ Chance = 100
 #Range: > 1
 "XP Amount" = 1
 #Enable simple harvesting and replanting with right click
-"Simple Harvest" = true
+"Simple Harvest" = false
 #List of crops to process with their ages
 "Crops List" = ["Block{farmersdelight:cabbages}[age=7]", "Block{farmersdelight:tall_rice_crop}[age=7]", "Block{xlfoodmod:tomato_plant}[age=7]", "Block{xlfoodmod:cucumber_plant}[age=7]", "Block{xlfoodmod:strawberry_plant}[age=7]", "Block{xlfoodmod:lettuce_plant}[age=7]", "Block{xlfoodmod:corn_plant}[age=7]", "Block{xlfoodmod:pepper_plant}[age=7]", "Block{minecraft:potatoes}[age=7]", "Block{minecraft:carrots}[age=7]", "Block{minecraft:wheat}[age=7]", "Block{minecraft:beetroots}[age=3]", "Block{minecraft:nether_wart}[age=3]"]
 #Curiosity Mode: sneak + right click with on block to get info in chat
