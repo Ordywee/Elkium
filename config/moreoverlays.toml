@@ -19,7 +19,7 @@
 	#Range: > 0
 	uprange = 4
 	#Ignore if there in no 2 Block space to spawn. (Less lag if true)
-	ignoreLayer = false
+	ignoreLayer = true
 
 #Settings for the chunk bounds overlay
 [chunkbounds]

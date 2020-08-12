@@ -52,9 +52,9 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.0003
+		multiplier = 0.00015
 		#Time in seconds before afk change kicks in
-		time = 120.0
+		time = 60.0
 		#If true, a comment will appear to notify when you are considered afk
 		message = true
 

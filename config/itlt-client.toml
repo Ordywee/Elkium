@@ -2,18 +2,18 @@
 #Bit detection
 [BitDetection]
 	#If ShouldYellAt32BitUsers is set to true, this is the message that will be displayed to the user.
-	Message = "go download 64 bit java silly!"
+	Message = "Reccomended 64bit Java and atleast 4 gb of ram!"
 	#Set to true to make itlt yell at people attempting to use 32x java for the modpack.
 	ShouldYellAt32BitUsers = true
 
 #Management of a dedicated server
 [Server]
 	#The name of the dedicated server to add.
-	ServerName = "Femboy Fridays"
+	ServerName = "Dave#1554 on discord for invite"
 	#The ip of the dedicated server to add.
-	ServerIP = "54.39.39.199:25565"
+	ServerIP = "Dave#1554 on discord if u want server :F"
 	#Set to true to have a dedicated server added to the server list ingame. The server will not overwrite others servers.
-	AddDedicatedServer = true
+	AddDedicatedServer = false
 
 #Display
 [Display]
