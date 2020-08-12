@@ -1,29 +1,25 @@
 # Elkium
 
-Repository and issue tracker for Elkium
+Early pack development of Elkium
 
 ### Table of Contents
 * [Play Testing](#playtesting)
 * [Setup](#setup)
-* [Links](#links)
+* [Link](#link)
 
 ## PlayTesting
 If you are interested in playtesting let me know via discord
-
-Mostly looking for:
-
+Current focus:
 * Bugs
 * Long boring grindy mechanics
-* Things that should be tweaked such as Armor loot rates and Mob spawn rates.
-
-All issues encountered should be sent via the issue tracker
+* Server sided bug sqashing
+* Server sided gear progression
 
 # Setup 
-## MultiMC
-#### Setup MultiMC Instance
+#### Setup MultiMC
 1) Download latest version of [MultiMC](https://multimc.org/#Download) if you haven't already.
 2) Open MultiMC.
-3) Gimme a bit T.T
+3) Do the thing (Working on proper installation)
 
-## Links
+## Link
 * [CurseForge](https://www.curseforge.com/minecraft/modpacks/elkium)
