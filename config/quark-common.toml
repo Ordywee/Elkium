@@ -413,19 +413,19 @@
 	"Slime Underground Biome" = false
 	"Spider Nest Underground Biome" = false
 	Crevices = true
-	"Monster Box" = false
+	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.8
+		"Chance Per Chunk" = 0
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 30
 		"Max Mob Count" = 8
-		"Enable Extra Loot Table" = true
+		"Enable Extra Loot Table" = false
 
 		[world.monster_box.dimensions]
 			Dimensions = ["minecraft:overworld"]

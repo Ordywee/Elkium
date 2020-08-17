@@ -15,7 +15,7 @@
 
 [audio]
 	#Set this to false to disable the ding heard when the cooldown meter has emptied.
-	enableSound = false
+	enableSound = true
 
 [controls]
 	#Set to 0 to disable.

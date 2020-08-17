@@ -1,5 +1,5 @@
 #Enable simple harvesting and replanting with right click
-"Simple Harvest" = false
+"Simple Harvest" = true
 #Curiosity Mode: sneak + right click with on block to get info in chat
 Curiosity = false
 #List of crops to process with their ages
