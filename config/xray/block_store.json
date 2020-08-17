@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Nether Quartz Ore",
+    "blockName": "minecraft:nether_quartz_ore",
+    "order": 1,
+    "color": 5598583,
+    "drawing": false
+  },
+  {
+    "name": "Biotite Ore",
+    "blockName": "quark:biotite_ore",
+    "order": 7,
+    "color": 13351398,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "minecraft:gold_ore",
+    "order": 5,
+    "color": 13950123,
+    "drawing": false
+  },
+  {
+    "name": "Lapis Lazuli Ore",
+    "blockName": "minecraft:lapis_ore",
+    "order": 4,
+    "color": 12446587,
+    "drawing": false
+  },
+  {
+    "name": "Ancient Debris",
+    "blockName": "futuremc:ancient_debris",
+    "order": 10,
+    "color": 42751,
+    "drawing": true
+  },
+  {
+    "name": "Redstone Ore",
+    "blockName": "minecraft:redstone_ore",
+    "order": 0,
+    "color": 13306148,
+    "drawing": false
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "minecraft:diamond_ore",
+    "order": 3,
+    "color": 3101887,
+    "drawing": false
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "minecraft:iron_ore",
+    "order": 6,
+    "color": 11225011,
+    "drawing": false
+  },
+  {
+    "name": "Emerald Ore",
+    "blockName": "minecraft:emerald_ore",
+    "order": 8,
+    "color": 3281262,
+    "drawing": false
+  },
+  {
+    "name": "Coal Ore",
+    "blockName": "minecraft:coal_ore",
+    "order": 2,
+    "color": 15648159,
+    "drawing": false
+  }
+]

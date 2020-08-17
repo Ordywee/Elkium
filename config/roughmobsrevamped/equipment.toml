@@ -9,7 +9,7 @@
 	#Should Rough Mobs get more gear as it gets closer to midnight?
 	Time_Multiplier = true
 	#Set to true to disable baby zombies getting equipment.
-	Disable_BabyZombie_Equipment = true
+	Disable_BabyZombie_Equipment = false
 
 ["Zombie Equipment Chances"]
 	#Chance (1 in X per piece) to give a Zombie a piece of armor on spawn.

@@ -9,5 +9,5 @@ Curiosity = false
 "XP Amount" = 1
 #Chance in % of XP orb spawning after harvest done
 #Range: 1 ~ 100
-Chance = 75
+Chance = 60
 

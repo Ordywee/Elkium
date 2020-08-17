@@ -2,7 +2,7 @@
 #General settings for the mod.
 [general]
 	#A list of additional splash texts that can be displayed.
-	customSplashes = ["Elkium 0.5.3", "Heck bisecthosting", "Cuong the cow slayer", "Ferda"]
+	customSplashes = ["What does it mean?", "Heck bisecthosting", "Cuong the cow slayer", "Ferda", "Elkium means Uhhhh Elk i..", "bug free Smile"]
 	#Should the names of mods be added to the pool of splashes?
 	includeModNames = false
 	#Should vanilla splash texts still be in the splash pool?

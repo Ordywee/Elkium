@@ -10,8 +10,8 @@ Early pack development of Elkium
 ## PlayTesting
 If you are interested in playtesting let me know via discord
 Current focus:
-* Bugs
-* Long boring grindy mechanics
+* Server Stability
+* Long boring grindy mechanic squashing
 * Server sided bug sqashing
 * Server sided gear progression
 

@@ -1,0 +1,64 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = assets/bg/f.jpg
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-right
+  x = -206
+  action = movebutton
+  y = -22
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-right
+  x = -104
+  action = movebutton
+  y = -22
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-right
+  x = -206
+  action = movebutton
+  y = -48
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-right
+  x = -206
+  action = movebutton
+  y = -72
+}
+

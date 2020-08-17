@@ -21,7 +21,7 @@
 	sleepWarningMessage = ""
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 0.0006
+	changePerSecond = 6.0E-4
 	#These players will not gain difficulty. Use either name or UUID.
 	#Note: if non-exempt players are nearby, mobs will still be stronger.
 	exemptPlayers = []
@@ -52,9 +52,9 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.00015
+		multiplier = 3.0E-4
 		#Time in seconds before afk change kicks in
-		time = 60.0
+		time = 120.0
 		#If true, a comment will appear to notify when you are considered afk
 		message = true
 
@@ -102,7 +102,7 @@
 		#The maximum extra attack damage a mob can receive
 		maxBoost = 5.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
-		boostScale = 0.1
+		boostScale = 0.3
 
 	#Chance for mobs to receive a random potion effect (assuming their difficulty is high enough)
 	[mob.potionChance]
@@ -111,7 +111,7 @@
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
-		Boost = 0.07
+		Boost = 0.028
 
 	#Mob health settings
 	[mob.health]
@@ -123,11 +123,11 @@
 		#MULTI_HALF: Same as MULTI but mobs with more than 20 hp have reduced scaling (bosses, endermen, witches, etc).
 		#MULTI_QUARTER: Same as MULTI_HALF but scaling is reduced further for 20hp+ mobs.
 		#ADD: Flat increase for all mobs, no matter their base hp.
-		modifierMode = "MULTI_HALF"
+		modifierMode = "ADD"
 
 		[mob.health.multiplier]
-			hostile = 0.4
-			passive = 0.005
+			hostile = 0.8
+			passive = 1.0E-4
 
 	[mob.blight]
 		#Chance that the mob has of becoming a blight - 0 will effectively deactivate blight
@@ -218,16 +218,16 @@
 
 	[item.power_crystal]
 		#The number of levels required to use a power crystal.
-		levelCost = 60
+		levelCost = 20
 		#How much more damage a player deals after using a power crystal.
-		damageBoost = 0.5
+		damageBoost = 1.0E-4
 
 	[item.chance_heart]
 		#Change in difficulty when a chance heart is used
 		#For a value n, a chance heart has 1 in 2n + 1 chance of being cursed
 		#In that case, n difficulty is added (n = 10, 1 in 21 chance to get +10)
 		#There's a 2 in 2n + 1 chance for 1 to n difficulty to be subtracted (n = 3, 2 in 7 chance of getting -1, -2, or -3
-		change = 250.0
+		change = 10.0
 
 	[item.cursed_heart]
 		#Change in difficulty when a cursed heart is used

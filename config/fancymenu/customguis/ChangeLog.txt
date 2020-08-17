@@ -1,0 +1,3 @@
+identifier = ChangeLog
+title = ChangeLog
+allowesc = true
